@@ -1,0 +1,133 @@
+
+.list li {
+    list-style: none;
+    
+}
+.list-two {
+    width: 100%;
+    height: auto;
+}
+
+.mdl-list{
+    border-bottom: 1px solid #3483fa;
+}
+
+ul {
+    padding-inline-start: 0;
+}
+
+.search{
+    background-color: #fff159;
+    width: 100%;
+    margin: 0;
+    margin-top: -10px;
+    padding-bottom: 1px;
+}
+
+.searchField{
+    width: 97.5%;
+}
+
+.material-icons{
+    color: #3483fa;
+}
+
+.title{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.mdl-list__item--two-line .mdl-list__item-primary-content .mdl-list__item-sub-title {
+    font-size: 10px;
+    font-weight: 900;
+    line-height: 10px;
+    color: #3483fa;
+    text-transform: uppercase;
+}
+
+/* Conteudo Principal */
+
+.main{
+    margin: 0 auto;
+    height: auto;
+}
+
+.banner{
+    width: 100%;
+}
+
+.greeting{
+    text-align: center;
+    background-color: #3483fa;
+    padding-top: 12px;
+    padding-bottom: 1px;
+}
+
+.greeting p{
+    font-size: 25px;
+    font-weight: 900;
+    color: #fff;
+    text-shadow: 1px 4px 5px #000;
+}
+
+.detach{
+    margin: 0 auto;
+    
+}
+
+.card-square.mdl-card {
+    width: 320px;
+    height: 320px;
+    margin: 10px;
+  }
+
+  .card-square > .mdl-card__title {
+    color: #fff;
+    justify-content: center;
+
+  }
+
+  .card-square > .mdl-card__title img{
+    height: auto;
+    width: 8em;
+    
+  }
+
+  .mdl-card__supporting-text{
+      padding-bottom: 35px;
+  }
+
+  .price p{
+    color: #333;
+    font-size: 25px;
+  }
+
+   .off{
+    font-size: 16px;
+    vertical-align: 2px;
+    padding-left: 2px;
+    color: #39b54a;
+   }
+
+   .footer{
+       margin: 0;
+   }
+
+   .footer img {
+       width: 50px;
+       padding: 10px;
+   }
+
+   .mdl-data-table{
+        width: 100%;
+   }
+
+   .mdl-data-table td:last-of-type, .mdl-data-table th:last-of-type {
+    padding-right: 24px;
+    text-align: center;
+}
+
+@media (min-width: 840px){
+.mdl-cell--12-col, .mdl-cell--12-col-desktop.mdl-cell--12-col-desktop {
+    width: 100%;
+}}

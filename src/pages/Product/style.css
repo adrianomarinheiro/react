@@ -1,0 +1,69 @@
+.loading{
+    margin: 40vh auto;
+  
+}
+
+.main{
+    
+    width: 100vw;
+    height: auto;
+}
+
+@media (max-width: 479px){
+    .mdl-grid {
+        padding: 0;
+    }
+}
+
+.image{
+    margin: 10px auto;
+}
+
+img{
+    width: 90vw;
+    height: auto;
+}
+
+@media (min-width: 840px){
+    img{
+        width: 35vw;
+    }
+}
+
+.info{
+    text-align: center;
+    background-color: #eee;
+    padding: 20px 10px 10px 10px;
+}
+
+.info a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.available p{
+    font-weight: 600;
+    color: #3483fa;
+}
+
+.price{
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 10px auto;
+}
+
+.location p{
+    margin: 5px;
+}
+
+.info button{
+    margin: 15px auto;
+}
+
+.description{
+    padding: 10px;
+}
+
+.description p{
+    text-align: justify;
+}
